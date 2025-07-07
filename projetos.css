@@ -1,0 +1,120 @@
+*{/* Marcador universal para tirar a margem de toda a página. */
+    margin: 0px;
+}
+
+html{
+background-color: #0f1720;
+}
+
+.Cabecalho{ /*Container do topo da página, fiz com display flex. E adcionei espaçamento nos itens do container com margem*/
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 100vw;
+min-height: 10em;
+background-color: rgba(0, 0, 0, 0.096);
+
+}
+
+.Botao{ /*Organização dos botões*/
+    background-color: rgb(34, 34, 39);
+    border: 1px solid  #ffa43b;
+    margin: 2.5vw;
+    min-height: 2vw;
+    min-width:10vw;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px #000000;/*adcionei sombra e ponta arredondada*/
+    border-radius: 4px;
+}
+
+
+.Titulo{/*Meu nome*/
+    color: white;
+    margin-right: 20vw;
+    font-size: 2em;
+}
+
+#Cargo{/*Engenheiro de software*/
+    font-size: 0.5em;
+    height: 1em;
+    color: #3faa43;
+    margin-top:0vh;
+    margin-left:4.8vw;
+
+}
+
+#Home{/*Por se tratar do botão de retorno para a pagina inicial, deixei de outra cor a fim de facilitar a usabilidade. Assim tornando seu uso mais intuitivo.*/
+
+    border: 1px solid #3faa43;
+    background-color: rgba(9, 67, 117, 0);
+
+
+}
+
+.Arquivos{/*Container para organização das boxes superiores.*/
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5vw;
+}
+
+.BoxUm{
+    border: 1px solid #ffa43b;
+    margin-right: 10vw;
+    height: 30vw;
+    width: 20vw;
+    background-color: rgb(34, 34, 39);
+    opacity: 75%;
+    border-radius: 4%;
+    overflow: auto;
+    white-space: normal;
+    word-break: break-word;/*Adcionei quebra de texto para deixar o sistema mais responsivo.*/
+}
+
+#MER{
+    margin-left: 2.5vw;
+    margin-right: 2vw;
+    margin-top: 2.5vw;
+    height: 15vw;
+    width: 15vw;
+}
+
+h1{
+    font-size: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    
+    color: white;
+    stroke-width: 5px solid black;
+}
+
+.BoxDois{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    margin:2.5vw 5vw 5vw 5vw;
+    height: 30vw;
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0.952);
+    opacity: 75%;
+    border-radius: 4%;
+    opacity: 75%;
+    border-radius: 4%;
+    overflow: auto;
+    white-space: normal;
+    word-break: break-word;
+}
+
+p{
+
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#APP{
+    margin-left: 2.5vw;
+    margin-right: 2vw;
+    margin-top: 2.5vw;
+    height: 30vw;
+    width: 15vw;
+}
